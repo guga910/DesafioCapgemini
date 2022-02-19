@@ -8,7 +8,7 @@ public class ValidadorTamanhoSenha implements Validavel {
 		}
 		
 		return "Voce precisa adicionar "+(6-senha.length())+
-				" para que sua senha seja segura.\n ";
+				" caracteres para que sua senha seja segura.\n ";
 	}
 	
 

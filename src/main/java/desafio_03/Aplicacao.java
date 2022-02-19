@@ -1,15 +1,14 @@
 package desafio_03;
 
+import desafio_03.servicos.ValidadorAnagrama;
+
 public class Aplicacao {
 	public static void main(String[] args) {
-		
 
-		Sistema sist= new Sistema();
-		String palavra= "pipoca";
-		
-		sist.validaString(palavra);
-//System.out.println(	palavra.substring(0, 2));		
-		
+		ValidadorAnagrama val= new ValidadorAnagrama();
+		int qntAnagramas=val.retornaQuantidadeAnagramaDeSiMesma("ifailuhkqq");
+		System.out.println();
+		System.out.println(qntAnagramas);
+
 	}
-
 }

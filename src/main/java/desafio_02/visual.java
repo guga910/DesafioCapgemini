@@ -25,14 +25,13 @@ public class visual {
 		Scanner entrada = new Scanner(System.in);
 		boolean sair = false;
 
-		System.out.println("Ola, seja bem vindo ao MUNDO SUBJETIVO,"
-				+ "\nonde aqui sim, o mundo e do  jeito que voce quer pra voce."
-				+ "\n\nSe ja for cadastrado; digite 1, se nao, digite 2.");
+	
+		System.out.println("Para cadastrar uma senha digite 2, para sair, digite 1.");
 		while (!sair) {
 
 			int escolha = entrada.nextInt();
 			if (escolha == 1) {
-				System.out.println("pode entrar, e fique a vontade em seu mundinho paralelo!");
+				System.out.println("Saindo do sistema...");
 				sair = true;
 			} else if (escolha == 2) {
 				System.out.println("Cadastre seu nome: ");
