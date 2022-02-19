@@ -25,7 +25,7 @@ A questão 03, o input devera ser modificado atraves da variavel `palavra` na li
 - Atingi 77,5% de teste em toda a aplicação, garantindo que todos os métodos tivessem seu comportamento validado. Não foi possivel criar testes para validar a interação com a tela do console.
 
 
-![Testes Unitários](img\desafio_coverage.PNG)
+![Testes Unitários](https://github.com/guga910/DesafioCapgemini/blob/master/img/desafio_coverage.PNG)
 
 
 ### Estrutura do Codigo.
@@ -33,6 +33,6 @@ A questão 03, o input devera ser modificado atraves da variavel `palavra` na li
 -Estruturei os desafios utilizando uma camada de serviço visando diminuir o acoplamento do codigo e reduzir a complexidade inerente de cada método.
 - Na questao 02, separei as validações em classes e utilizei regex para as validações necessárias abstraindo todas elas em uma mesma interface, para gerar uma checagem de vários erros simultaneos e independentes entre si.
 
-![Estrutura do Codigo](img\Capturar2.PNG)
+![Estrutura do Codigo](https://github.com/guga910/DesafioCapgemini/blob/master/img/Capturar2.PNG)
 
  
