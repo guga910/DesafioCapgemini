@@ -13,9 +13,10 @@ public class ValidadorTamanhoSenhaTest {
 		ValidadorTamanhoSenha validador = new ValidadorTamanhoSenha();
 		String erro = validador.validar(senhaInvalida);
 		String retornoEsperado = "Voce precisa adicionar " + (6 - senhaInvalida.length())
-				+ " para que sua senha seja segura.\n ";
+				+ " caracteres para que sua senha seja segura.\n ";
 		assertEquals(retornoEsperado, erro);
 
+	
 	}
 
 	@Test

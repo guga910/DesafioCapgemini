@@ -6,7 +6,8 @@ public class Aplicacao {
 	public static void main(String[] args) {
 
 		ValidadorAnagrama val= new ValidadorAnagrama();
-		int qntAnagramas=val.retornaQuantidadeAnagramaDeSiMesma("ifailuhkqq");
+		String palavra= "ifailuhkqq";
+		int qntAnagramas=val.retornaQuantidadeAnagramaDeSiMesma(palavra);
 		System.out.println();
 		System.out.println(qntAnagramas);
 
